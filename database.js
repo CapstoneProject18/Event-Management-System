@@ -16,6 +16,7 @@ var organiserSchema = mongoose.Schema({
 	duration: Number,
 	price: Number,
 	total_seats: Number,
+	event_pic: Buffer,
 	location: [
 		{
 			state: String,
@@ -44,5 +45,10 @@ var userSchema = mongoose.Schema({
 });
 
 
-
+//Admin Schema
+var adminSchema = mongoose.Schema({
+	_id: mongoose.Schema.Types.ObjectId,
+	admin: String;
+	admin_pass: String;
+});
 
