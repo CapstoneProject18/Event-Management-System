@@ -1,0 +1,6 @@
+module.exports = {
+  AUTH0_DOMAIN: 'enigma2910.auth0.com', // e.g., kmaida.auth0.com
+  AUTH0_API_AUDIENCE: 'http://localhost:8083/api/', // e.g., 'http://localhost:8083/api/'
+  MONGO_URI: process.env.MONGO_URI || 'mongodb://enigma:enigma123@localhost:27017/mean?authSource=admin',
+  NAMESPACE: 'http://myapp.com/roles' // e.g., http://myapp.com/roles
+};
